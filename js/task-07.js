@@ -8,4 +8,4 @@ const changeFontSize = (e) => {
   text.style.fontSize = `${e.target.value}px`;
 };
 
-range.addEventListener("click", changeFontSize);
+range.addEventListener("input", changeFontSize);
